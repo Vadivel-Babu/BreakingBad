@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+*{
+  margin:0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: hsl(218, 23%, 16%);
+  color:hsl(193, 38%, 86%);
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Manrope', sans-serif;
+}
+.card{
+  max-width: 500px;
+  padding: 20px;
+  background-color: hsl(217, 19%, 38%);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  min-height: 150px;
+}
+.title{
+  color: hsl(150, 100%, 66%);
+  font-size: 15px;
+}
+.quote{
+  max-width: 300px;
+  text-align: center;
+}
+.btn{
+  background-color:hsl(150, 100%, 66%);
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  border: 0;
+  position: absolute;
+  bottom: -30px;
+  cursor: pointer;
+}
+
